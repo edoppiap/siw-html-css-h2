@@ -1,0 +1,104 @@
+body{
+	font-family: Arial;
+	margin: 8px;
+	display: block;
+    font-size: 1.0em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+ul{
+	margin: 0;
+	padding-bottom: .5em;
+}
+
+h1{
+	color: darkblue;
+}
+
+.name{
+	font-size: 2.5em;
+	margin: 0;
+}
+
+div{
+	display: inline-block;
+}
+
+.personal_info_h4{
+	color:  darkblue;
+	padding: 0;
+	margin: 0;
+}
+
+.personal_info{
+	width: 25%;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+.personal_info_p{
+	padding: 0;
+	margin: 0;
+}
+
+.cube{
+	display: block;
+	border-bottom-style: solid;
+	border-color: darkblue;
+	border-width: 1px;
+	margin: 0;
+	padding: 0;
+	margin-bottom: .5em;
+}
+
+.main_body{
+	width: 70%;
+	margin-bottom: 0.3em;
+	background: lightgray;
+	border-style: solid;
+	border-color: darkblue;
+	border-width: 1px;
+	margin: 0;
+	padding: 0;
+	float: right;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.main_body_h4{
+	color: white;
+	font-family: helvetica, arial, geneva, sans-serif;
+	font-size: .9em;
+	font-weight: inherit;
+	background: teal;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	margin-left: .1em;
+	border-style: solid;
+	border-width: .1em;
+	border-color: teal;
+	padding-left: .5em;
+}
+
+.main_body_titles{
+	padding: 0;
+	margin: 0;
+}
+
+a:link{
+	color: darkblue;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:visited{
+	color: darkblue;
+}
+
+a:hover{
+	color: black;
+	background-color: yellow;
+	text-decoration: underline;
+}
