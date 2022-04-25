@@ -7,6 +7,22 @@ body{
     margin-right: 3em;
 }
 
+table, td, th{
+	border:  1px solid black;
+	border-collapse: collapse;
+}
+
+th{
+	font-weight: inherit;
+	text-align: left;
+	padding: .3em;
+}
+
+td{
+	padding: .3em;
+	text-align: center;
+}
+
 ul{
 	margin: 0;
 	padding-bottom: .5em;
@@ -55,12 +71,12 @@ div{
 
 .main_body{
 	width: 70%;
+	margin: 0;
 	margin-bottom: 0.3em;
 	background: lightgray;
 	border-style: solid;
 	border-color: darkblue;
 	border-width: 1px;
-	margin: 0;
 	padding: 0;
 	float: right;
 	padding-left: 1em;
@@ -87,17 +103,65 @@ div{
 	margin: 0;
 }
 
-a:link{
+.sites_google{
+	font-size: 1.3em;
+	margin:  auto;
+	display: block;
+	width: 80%;
+	padding-bottom: 5%;
+}
+
+.sites_google_h1{
+	color: black;
+	text-align: center;
+	font-family: open sans;
+	font-weight: bold;
+	border: 0;
+	border-bottom: .5em;
+	border-color: red;
+	border-style: solid;
+}
+
+.sites_google_h3{
+	color: indianred;
+}
+
+.sites_google_important_p{
+	background-size: cover;
+	display: table;
+	position: relative;
+	table-layout: fixed;
+	width: 100%;
+	background: red;
+	color: white;
+	padding: 2em;
+	font-weight: bold;
+
+}
+
+.sites_google_link:link{
+	color: black;
+	text-decoration: underline;
+}
+
+.sites_google_link:visited{
+	color: black;
+	text-decoration: underline;
+}
+
+.main_body_links:link{
 	color: darkblue;
 	text-decoration: none;
 	font-weight: bold;
 }
 
-a:visited{
+.main_body_links:visited{
 	color: darkblue;
+	text-decoration: none;
+	font-weight: bold;
 }
 
-a:hover{
+.main_body_links:hover{
 	color: black;
 	background-color: yellow;
 	text-decoration: underline;
